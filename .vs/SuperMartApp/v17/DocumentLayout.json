@@ -1,0 +1,658 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\SalesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Controllers\\SalesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\OrdersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Controllers\\OrdersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Orders\\Receipt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Views\\Orders\\Receipt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Services\\DataMapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Services\\DataMapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Returns\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Views\\Returns\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Entities\\RefreshToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Entities\\RefreshToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Entities\\Return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Entities\\Return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Sales\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Views\\Sales\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Entities\\SalesPayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Entities\\SalesPayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\ProductsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Controllers\\ProductsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\ReportsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Controllers\\ReportsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Batches\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Views\\Batches\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Seed\\DbSeeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Seed\\DbSeeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\BatchesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Controllers\\BatchesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Home\\Privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Views\\Home\\Privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Batches\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Views\\Batches\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\POS\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Views\\POS\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\ReturnsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Controllers\\ReturnsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Reports\\ZReport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Views\\Reports\\ZReport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\InventoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Controllers\\InventoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\CustomersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Controllers\\CustomersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Products\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Views\\Products\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Migrations\\20250901094248_migration-102.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Migrations\\20250901094248_migration-102.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Shared\\_LoginPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Views\\Shared\\_LoginPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Shared\\Error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Views\\Shared\\Error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\ScaffoldingReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\ScaffoldingReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Areas\\Identity\\Pages\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Views\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Views\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Areas\\Identity\\Pages\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{99b8fa2f-ab90-4f57-9c32-949f146f1914}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Controllers\\AccountController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T15:44:18.826Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Controllers\\OrdersController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T11:03:27.413Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Receipt.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Orders\\Receipt.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Views\\Orders\\Receipt.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Orders\\Receipt.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Views\\Orders\\Receipt.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T10:46:03.884Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataMapper.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Services\\DataMapper.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Services\\DataMapper.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Services\\DataMapper.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Services\\DataMapper.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T10:12:36.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Controllers\\SalesController.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Controllers\\SalesController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T10:03:41.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Returns\\Create.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Views\\Returns\\Create.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Returns\\Create.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Views\\Returns\\Create.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T10:01:45.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Entities\\RefreshToken.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Entities\\RefreshToken.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T10:00:02.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Return.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Entities\\Return.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Entities\\Return.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Entities\\Return.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Entities\\Return.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T10:00:00.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Sales\\Details.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Views\\Sales\\Details.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Sales\\Details.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Views\\Sales\\Details.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T10:04:00.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SalesPayment.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Entities\\SalesPayment.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Entities\\SalesPayment.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Entities\\SalesPayment.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Entities\\SalesPayment.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:59:58.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Controllers\\ProductsController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T09:08:30.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Controllers\\ReportsController.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Controllers\\ReportsController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T10:00:31.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Batches\\Create.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Views\\Batches\\Create.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Batches\\Create.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Views\\Batches\\Create.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T11:13:37.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Seed\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Seed\\DbSeeder.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Seed\\DbSeeder.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Seed\\DbSeeder.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T08:06:36.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BatchesController.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\BatchesController.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Controllers\\BatchesController.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\BatchesController.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Controllers\\BatchesController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T11:04:32.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Views\\Home\\Privacy.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T11:56:10.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Batches\\Index.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Views\\Batches\\Index.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Batches\\Index.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Views\\Batches\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T11:58:48.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\POS\\Index.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Views\\POS\\Index.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\POS\\Index.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Views\\POS\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T10:45:00.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReturnsController.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\ReturnsController.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Controllers\\ReturnsController.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\ReturnsController.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Controllers\\ReturnsController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T11:03:53.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Program.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Program.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Program.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T09:37:30.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ZReport.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Reports\\ZReport.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Views\\Reports\\ZReport.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Reports\\ZReport.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Views\\Reports\\ZReport.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T11:07:02.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Controllers\\InventoryController.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Controllers\\InventoryController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T11:03:34.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Controllers\\CustomersController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T11:04:31.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Views\\Products\\Index.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Views\\Products\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T09:49:25.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250901094248_migration-102.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Migrations\\20250901094248_migration-102.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Migrations\\20250901094248_migration-102.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Migrations\\20250901094248_migration-102.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Migrations\\20250901094248_migration-102.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T09:42:48.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Views\\Shared\\_LoginPartial.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T09:13:29.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Views\\Shared\\_Layout.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T09:13:32.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Views\\Shared\\Error.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T09:14:32.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T09:14:54.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "SuperMart.WEB\\ScaffoldingReadMe.txt",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-01T09:25:13.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\appsettings.json",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\appsettings.json",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\appsettings.json",
+              "RelativeToolTip": "SuperMart.WEB\\appsettings.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-01T09:25:16.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T09:14:22.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T09:14:55.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T09:14:17.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Views\\_ViewImports.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T09:14:31.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Views\\_ViewStart.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T09:13:48.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T09:13:37.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T09:14:21.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T09:14:28.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "RelativeToolTip": "SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T09:14:18.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ExternalLogin.cshtml.cs",
+              "DocumentMoniker": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "RelativeDocumentMoniker": "SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "ToolTip": "D:\\TECHNOLOGY\\Suraj\u0027s Projects\\Project SuperMart\\SuperMartApp\\SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "RelativeToolTip": "SuperMart.WEB\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T09:04:45.465Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
