@@ -1,17 +1,18 @@
+# SuperMartApp
 
+This repository contains the SuperMart application, built with ASP.NET Core 8 and Entity Framework Core.
 
-# SuperMart
-Projects:
-- SuperMartApp.Api → ASP.NET Core Web API
-- SuperMartApp.Infrastructure → EF Core + Postgres
-- SuperMartApp.Tests → xUnit + FluentAssertions
+## Solution Structure
+- **SuperMartApp.Api** → ASP.NET Core Web API (controllers, endpoints, middleware).
+- **SuperMartApp.Infrastructure** → EF Core + PostgreSQL (DbContext, Migrations, Repositories).
+- **SuperMartApp.Tests** → Unit + Integration tests (xUnit, FluentAssertions).
 
-How to run:
-dotnet build
-dotnet run --project SuperMartApp.Api
-dotnet test
-
-# SuperMart (ASP.NET Core 8)
+## Getting Started
+1. **Build the solution**
+   ```bash
+    dotnet build
+    dotnet run --project SuperMartApp.Api
+    dotnet test
 
 ## Run
 dotnet restore
