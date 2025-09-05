@@ -1,0 +1,183 @@
+@{
+    ViewData["Title"] = "POS";
+}
+<h2>POS</h2>
+
+<div class="row g-3">
+    <div class="col-lg-5">
+        <div class="card mb-3">
+            <div class="card-header">Customer</div>
+            <div class="card-body">
+                <ul class="nav nav-tabs" id="custTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="tab-existing" data-bs-toggle="tab" data-bs-target="#pane-existing" type="button" role="tab">Existing</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab-new" data-bs-toggle="tab" data-bs-target="#pane-new" type="button" role="tab">New</button>
+                    </li>
+                </ul>
+                <div class="tab-content border border-top-0 p-3">
+                    <div class="tab-pane fade show active" id="pane-existing" role="tabpanel">
+                        <div class="input-group mb-2">
+                            <input id="cust-q" class="form-control" placeholder="Search code/name/phone/email" />
+                            <button id="cust-find" class="btn btn-outline-secondary">Find</button>
+                        </div>
+                        <div style="max-height:200px; overflow:auto">
+                            <table class="table table-sm table-hover mb-0">
+                                <thead><tr><th>Code</th><th>Name</th><th>Phone</th><th></th></tr></thead>
+                                <tbody id="cust-list"></tbody>
+                            </table>
+                        </div>
+                        <div class="small text-muted mt-2">Selected: <span id="cust-selected">None</span></div>
+                    </div>
+                    <div class="tab-pane fade" id="pane-new" role="tabpanel">
+                        <div class="row g-2">
+                            <div class="col-md-4"><input id="cust-code" class="form-control" placeholder="Code (auto if blank)" /></div>
+                            <div class="col-md-8"><input id="cust-name" class="form-control" placeholder="Name" /></div>
+                            <div class="col-md-4"><input id="cust-phone" class="form-control" placeholder="Phone" /></div>
+                            <div class="col-md-8"><input id="cust-email" class="form-control" placeholder="Email" /></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">Scan / Add Item</div>
+            <div class="card-body">
+                <div class="input-group">
+                    <input id="barcode" class="form-control" placeholder="Scan barcode..." />
+                    <button id="add" class="btn btn-primary">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-7">
+        <div class="card mb-3">
+            <div class="card-header">Cart</div>
+            <div class="card-body">
+                <table id="cart" class="table table-sm table-striped align-middle">
+                    <thead><tr><th>Item</th><th style="width:90px">Qty</th><th style="width:120px">Price</th><th style="width:120px">Total</th><th style="width:40px"></th></tr></thead>
+                    <tbody></tbody>
+                </table>
+                <div class="d-flex justify-content-end gap-3"><div class="fs-6"><strong>Grand:</strong> ₹<span id="grand">0.00</span></div></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">Payments</div>
+            <div class="card-body">
+                <div class="row g-2">
+                    <div class="col-md-4">
+                        <div class="input-group"><span class="input-group-text">Cash</span><input id="pay-cash" class="form-control" type="number" step="0.01" value="0" /></div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-group"><span class="input-group-text">Card</span><input id="pay-card" class="form-control" type="number" step="0.01" value="0" /></div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-group"><span class="input-group-text">UPI</span><input id="pay-upi" class="form-control" type="number" step="0.01" value="0" /></div>
+                    </div>
+                </div>
+                <div class="text-end mt-3">
+                    <button id="checkout" class="btn btn-success">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        let selectedCustomer = null;
+        const cart = [];
+        const fmt = n => (n||0).toFixed(2);
+
+        function renderCart(){
+          const body = document.querySelector('#cart tbody'); body.innerHTML='';
+          let grand = 0;
+          cart.forEach((l,i)=>{
+            const total = l.qty * l.unitPrice; grand += total;
+            const tr = document.createElement('tr');
+            tr.innerHTML = `<td>${l.name}</td>
+              <td><input value="${l.qty}" size="3" data-i="${i}" class="form-control form-control-sm q"/></td>
+              <td>${fmt(l.unitPrice)}</td>
+              <td>${fmt(total)}</td>
+              <td><button class="btn btn-sm btn-outline-danger rm" data-i="${i}">×</button></td>`;
+            body.appendChild(tr);
+          });
+          document.getElementById('grand').innerText = fmt(grand);
+          document.querySelectorAll('.q').forEach(inp=>{
+            inp.onchange = e => { const i=+e.target.dataset.i; cart[i].qty = +e.target.value || 1; renderCart(); };
+          });
+          document.querySelectorAll('.rm').forEach(btn=>{
+            btn.onclick = e => { const i=+e.target.dataset.i; cart.splice(i,1); renderCart(); };
+          });
+        }
+
+        document.getElementById('add').onclick = async () => {
+          const barcode = document.getElementById('barcode').value.trim();
+          if(!barcode) return;
+          const res = await fetch('@Url.Action("Scan", "POS")', {
+            method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded'},
+            body: new URLSearchParams({ barcode })
+          });
+          if(!res.ok) { alert('Item not found'); return; }
+          const item = await res.json();
+          const existing = cart.find(x => x.productId === item.productId);
+          if(existing) existing.qty += 1;
+          else cart.push({ productId:item.productId, name:item.name, unitPrice:item.price, qty:1 });
+          renderCart();
+          document.getElementById('barcode').value=''; document.getElementById('barcode').focus();
+        };
+
+        document.getElementById('cust-find').onclick = async () => {
+          const q = document.getElementById('cust-q').value.trim();
+          const res = await fetch('@Url.Action("FindCustomer", "POS")?q=' + encodeURIComponent(q));
+          const list = await res.json();
+          const tb = document.getElementById('cust-list'); tb.innerHTML='';
+          list.forEach(c=>{
+            const tr = document.createElement('tr');
+            tr.innerHTML = `<td>${c.code||''}</td><td>${c.name||''}</td><td>${c.phone||''}</td>
+              <td><button class="btn btn-sm btn-primary pick">Select</button></td>`;
+            tr.querySelector('.pick').onclick = ()=>{ selectedCustomer = c; document.getElementById('cust-selected').innerText = `${c.name} (${c.phone||c.code||''})`; };
+            tb.appendChild(tr);
+          });
+        };
+
+        document.getElementById('checkout').onclick = async () => {
+          const payments = [];
+          const v = id=>parseFloat(document.getElementById(id).value||'0');
+          if(v('pay-cash')>0) payments.push({ method: 1, amount: v('pay-cash') });
+          if(v('pay-card')>0) payments.push({ method: 2, amount: v('pay-card') });
+          if(v('pay-upi')>0)  payments.push({ method: 3, amount: v('pay-upi') });
+
+          // Build customer payload
+          let customer = null;
+          const activeTab = document.querySelector('#custTabs .nav-link.active')?.id || 'tab-existing';
+          if(activeTab === 'tab-existing'){
+            if(selectedCustomer) 
+                customer = { id: selectedCustomer.id };
+          }
+          else{
+            const code = document.getElementById('cust-code').value.trim();
+            const name = document.getElementById('cust-name').value.trim();
+            const phone = document.getElementById('cust-phone').value.trim();
+            const email = document.getElementById('cust-email').value.trim();
+            if(name || phone || email || code){
+              customer = { code, name, phone, email };
+            }
+          }
+
+          const payload = { customer, lines: cart.map(c=>({ productId:c.productId, qty:c.qty, unitPrice:c.unitPrice })), payments };
+          const res = await fetch('@Url.Action("Checkout", "POS")', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload) });
+          if(!res.ok){ const t = await res.text(); alert('Checkout failed: ' + t); return; }
+          const done = await res.json();
+          alert('Order ' + done.orderNo + ' saved. Total: ' + done.total + (done.customerId ? (' | CustomerId: ' + done.customerId) : ''));
+          window.location = '/Orders/Receipt/' + done.id;
+        };
+
+        // init render
+        renderCart();
+    </script>
+}

@@ -1,0 +1,27 @@
+@model IEnumerable<SuperMartApp.Domain.Entities.ProductBatch>
+@{ ViewData["Title"] = "Batches (GRN)"; }
+<h2>Batches</h2>
+<form class="row g-2 mb-3" method="get">
+  <div class="col-auto">
+    <select class="form-select" name="productId" asp-items="ViewBag.Products">
+      <option value="">-- All Products --</option>
+    </select>
+  </div>
+  <div class="col-auto"><button class="btn btn-primary">Filter</button></div>
+  <div class="col-auto"><a class="btn btn-success" href="@Url.Action("Create")">Add GRN</a></div>
+</form>
+<table class="table table-sm table-striped">
+  <thead><tr><th>ProductId</th><th>Batch</th><th>Mfg</th><th>Expiry</th><th>Cost</th><th>Qty On Hand</th></tr></thead>
+  <tbody>
+  @foreach (var b in Model) {
+    <tr>
+      <td>@b.ProductId</td>
+      <td>@b.BatchNo</td>
+      <td>@(b.MfgDate?.ToString("yyyy-MM-dd") ?? "-")</td>
+      <td>@(b.ExpiryDate?.ToString("yyyy-MM-dd") ?? "-")</td>
+      <td>@b.Cost</td>
+      <td>@b.QtyOnHand</td>
+    </tr>
+  }
+  </tbody>
+</table>

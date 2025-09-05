@@ -1,0 +1,30 @@
+@{
+    var isAuth = Context.User?.Identity?.IsAuthenticated ?? false;
+    ViewData["Title"] = "Home";
+}
+<div>
+    @if (isAuth)
+    {
+        <div class="p-4 mb-4 bg-light rounded-3">
+          <div class="container-fluid py-2">
+            <h1 class="display-6">Welcome to the HOME page</h1>
+            <h3 class="lead"> You have successfully Logged In</h3>
+
+          </div>
+        </div>
+    }
+    else
+    {
+        <div class="p-4 mb-4 bg-light rounded-3">
+          <div class="container-fluid py-2">
+            <h1 class="display-6">Welcome to SuperMartApp</h1>
+            <p class="lead">Sample supermarket CRM + POS-lite built on ASP.NET Core 8 MVC.</p>
+            <ol>
+              <li>Login with <code>suraj@mailinator.com</code> / <code>Test@1234</code> (auto-seeded)</li>
+              <li>Go to <strong>Products</strong> to manage SKUs</li>
+              <li>Open <strong>POS</strong> to scan barcodes (try 8901001, 8902001, 8903001)</li>
+            </ol>
+          </div>
+        </div>
+    }
+</div>

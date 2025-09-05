@@ -1,0 +1,40 @@
+@model SuperMartApp.Web.Controllers.BatchesController.BatchCreateVM
+@{ ViewData["Title"] = "Add GRN (Batch)"; }
+<h2>Add GRN (Batch)</h2>
+<form method="post">
+  @Html.AntiForgeryToken()
+  @Html.AntiForgeryToken()
+  @Html.AntiForgeryToken()
+  @Html.AntiForgeryToken()
+  <div class="row g-3">
+    <div class="col-md-4">
+        <label class="form-label">Product</label>
+        <select class="form-select" asp-for="ProductId" asp-items="ViewBag.Products"></select>
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Batch No</label>
+        <input class="form-control" asp-for="BatchNo" />
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Mfg</label>
+            <input class="form-control" asp-for="MfgDate" type="datetime-local" asp-format="{0:yyyy-MM-ddTHH:mm}" />
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Expiry</label>
+            <input class="form-control" asp-for="ExpiryDate" type="datetime-local" asp-format="{0:yyyy-MM-ddTHH:mm}" />
+    </div>
+
+    <div class="col-md-3">
+        <label class="form-label">Cost</label>
+            <input class="form-control" asp-for="Cost" type="number" step="0.01" />
+            </div>
+    <div class="col-md-3">
+        <label class="form-label">Qty</label>
+        <input class="form-control" asp-for="Qty" type="number" step="0.01" />
+    </div>
+    <div class="col-12">
+        <button class="btn btn-primary">Save</button>
+        <a class="btn btn-secondary" href="@Url.Action("Index")">Back</a>
+    </div>
+  </div>
+</form>

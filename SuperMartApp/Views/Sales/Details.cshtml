@@ -1,0 +1,52 @@
+@model SuperMartApp.Models.SalesOrderViewModel
+@{ 
+    ViewData["Title"] = "Order Details"; 
+}
+
+<h3>Order Number :  @Model.OrderNo</h3>
+
+<table class="table table-sm">
+  <thead>
+      <tr><th>Item</th>
+          <th>Qty</th>
+          <th>Price</th>
+          <th>Tax</th>
+          <th>Total</th>
+      </tr>
+  </thead>
+
+  <tbody>
+      @foreach (var l in Model.Lines) {
+        <tr>
+            <td>@l.ProductName</td>
+            <td>@l.Qty</td>
+            <td>@l.UnitPrice</td>
+            <td>@l.Tax</td>
+            <td>@l.LineTotal</td>
+        </tr>
+      }
+  </tbody>
+
+  <tfoot>
+    <tr>
+        <td colspan="4">Subtotal</td>
+        <td>@Model.Subtotal</td>
+    </tr>
+    <tr>
+        <td colspan="4">Tax</td>
+        <td>@Model.Tax</td>
+    </tr>
+    <tr>
+        <td colspan="4"><strong>Total</strong></td>
+        <td><strong>@Model.Total</strong></td>
+    </tr>
+  </tfoot>
+</table>
+
+
+<p>
+  <a class="btn btn-secondary" href="@Url.Action("Index")">Back</a>
+  <a class="btn btn-outline-primary" href="/Orders/Receipt/@Model.Id" target="_blank">Print Receipt</a>
+  <a class="btn btn-warning" href="/Returns/Create?salesOrderId=@Model.Id">Return Items</a>
+</p>
+

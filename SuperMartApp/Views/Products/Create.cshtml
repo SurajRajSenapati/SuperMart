@@ -1,0 +1,45 @@
+@model SuperMartApp.Domain.Entities.Product
+@{
+  ViewData["Title"] = "Create Product";
+}
+<h2>Create Product</h2>
+<form method="post">
+  <div class="row g-3">
+    <div class="col-md-4">
+      <label class="form-label">SKU</label>
+      <input class="form-control" asp-for="Sku" />
+    </div>
+    <div class="col-md-4">
+      <label class="form-label">Barcode</label>
+      <input class="form-control" asp-for="Barcode" />
+    </div>
+    <div class="col-md-6">
+      <label class="form-label">Name</label>
+      <input class="form-control" asp-for="Name" />
+    </div>
+    <div class="col-md-3">
+      <label class="form-label">GST %</label>
+      <input class="form-control" asp-for="GstRate" type="number" step="1" />
+    </div>
+    <div class="col-md-3">
+      <label class="form-label">Base Price</label>
+      <input class="form-control" asp-for="BasePrice" type="number" step="0.01" />
+    </div>
+    <div class="col-md-3">
+      <label class="form-label">MRP</label>
+      <input class="form-control" asp-for="Mrp" type="number" step="0.01" />
+    </div>
+    <div class="col-md-3">
+      <label class="form-label">Reorder Level</label>
+      <input class="form-control" asp-for="ReorderLevel" type="number" />
+    </div>
+    <div class="col-md-3 form-check mt-4">
+      <input class="form-check-input" asp-for="ExpiryRequired" />
+      <label class="form-check-label">Expiry Required</label>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary">Save</button>
+      <a class="btn btn-secondary" href="@Url.Action("Index")">Back</a>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,22 @@
+@model SuperMartApp.Domain.Entities.SalesOrder
+@{ ViewData["Title"] = "Return items"; }
+<h3>Return from Order @Model.OrderNo</h3>
+<table class="table table-sm">
+  <thead><tr><th>Line</th><th>ProductId</th><th>Qty</th><th>Unit</th><th>Total</th><th>Return</th></tr></thead>
+  <tbody>
+  @foreach (var l in Model.Lines) {
+    <tr>
+      <td>@l.Id</td><td>@l.ProductId</td><td>@l.Qty</td><td>@l.UnitPrice</td><td>@l.LineTotal</td>
+      <td>
+        <form method="post">
+          <input type="hidden" name="salesOrderId" value="@Model.Id" />
+          <input type="hidden" name="lineId" value="@l.Id" />
+          <input class="form-control form-control-sm" style="width:100px;display:inline" name="qty" type="number" step="0.01" value="1" />
+          <input class="form-control form-control-sm" style="width:200px;display:inline" name="reason" placeholder="Reason" />
+          <button class="btn btn-sm btn-warning">Return</button>
+        </form>
+      </td>
+    </tr>
+  }
+  </tbody>
+</table>

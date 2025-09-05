@@ -1,0 +1,23 @@
+@model SuperMartApp.Web.Controllers.ReportsController.ZModel
+@{ ViewData["Title"] = "Z-Report"; }
+<h2>Z-Report (@Model.Date.ToString("yyyy-MM-dd"))</h2>
+<div class="row">
+  <div class="col-md-6">
+    <table class="table table-sm">
+      <tr><th>Orders</th><td>@Model.Orders</td></tr>
+      <tr><th>Subtotal</th><td>₹@Model.Subtotal</td></tr>
+      <tr><th>Discount</th><td>₹@Model.Discount</td></tr>
+      <tr><th>Tax</th><td>₹@Model.Tax</td></tr>
+      <tr><th><strong>Total</strong></th><td><strong>₹@Model.Total</strong></td></tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h5>Payments</h5>
+    <table class="table table-sm">
+      @foreach (var kv in Model.Payments) {
+        <tr><th>@kv.Key</th><td>₹@kv.Value</td></tr>
+      }
+    </table>
+  </div>
+</div>
+<button class="btn btn-outline-secondary" onclick="window.print()">Print</button>

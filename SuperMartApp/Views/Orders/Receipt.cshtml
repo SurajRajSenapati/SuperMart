@@ -1,0 +1,91 @@
+@* @model SuperMartApp.Domain.Entities.SalesOrder *@
+@model SuperMartApp.Models.SalesOrderViewModel;
+@using SuperMartApp.Domain.Entities
+@inject SuperMartApp.Infrastructure.Data.AppDbContext Db
+
+
+@{
+    Layout = null;
+    var payments = Db.SalesPayments.Where(p => p.SalesOrderId == Model.Id).ToList();
+    var custName = Model.CustomerId.HasValue ? Db.Customers.Where(c => c.Id == Model.CustomerId).Select(c => c.Name).FirstOrDefault() : null;
+    var custPhone = Model.CustomerId.HasValue ? Db.Customers.Where(c => c.Id == Model.CustomerId).Select(c => c.Phone).FirstOrDefault() : null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Receipt @Model.OrderNo</title>
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body class="receipt" >
+    <div>
+        <h3 class="rc-title">Supermart</h3>
+        <div class="rc-meta">
+            Order: @Model.OrderNo<br />
+            Date: @Model.CreatedAt.ToLocalTime()<br />
+            @if (Model.CustomerId.HasValue)
+            {
+                <text>Customer: @custName (@custPhone)</text>
+            }
+        </div>
+        <hr />
+        <table class="rc-table align-content-center">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var l in Model.Lines)
+                {
+                    <tr>
+                        <td>@l.ProductName</td>
+                        <td>@l.Qty</td>
+                        <td>@l.UnitPrice</td>
+                        <td>@l.LineTotal</td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Subtotal</td>
+                    <td>@Model.Subtotal</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Tax</td>
+                    <td>@Model.Tax</td>
+                </tr>
+                <tr>
+                    <td colspan="3"><strong>Total</strong></td>
+                    <td><strong>@Model.Total</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr />
+        <div class="rc-payments">
+            Payments:
+            @foreach (var p in payments)
+            {
+                <span>@p.Method - @p.Amount</span>
+
+                <span class="sp">&nbsp;</span>
+                <span class="sp">&nbsp;</span>
+            }
+        </div>
+        <button class="btn btn-secondary noprint" onclick="window.print()">Print</button>
+
+        <hr />
+
+        <div>
+            <a class="btn btn-secondary" href="@Url.Action("Index","Home")">Back to HomePage</a>
+        </div>
+    </div>
+
+</body>
+</html>
+
